@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd330d16-40c1-4afb-bb3e-e668b7e13c80" name="Default Changelist" comment="" />
+    <list default="true" id="cd330d16-40c1-4afb-bb3e-e668b7e13c80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/concurrency-pattern/pool/pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/concurrency-pattern/pool/pool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/concurrency-pattern/pool/test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/concurrency-pattern/pool/test/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +22,17 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1T0ZlGRjmo5PYH5kv3Cg9rzw3J7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -52,7 +62,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/runner/test">
+  <component name="RunManager" selected="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/pool/test">
+    <configuration name="go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/pool/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-coding" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/concurrency/concurrency-pattern/pool/test/main.go" />
+      <package value="github.com/azd1997/go-coding/concurrency/concurrency-pattern/pool/test" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/runner/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-coding" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,26 +103,31 @@
       <package value="github.com/azd1997/go-coding/concurrency/csp/channel/unbufferedChan/ex-relay-race" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/azd1997/go-coding/concurrency/smp/mutex" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/concurrency/smp/mutex/mutex_usage.go" />
-      <package value="github.com/azd1997/go-coding/concurrency/smp/mutex" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/pool/test" />
         <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/runner/test" />
         <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/csp/channel/bufferedChan/ex-tasks" />
         <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/csp/channel/unbufferedChan/ex-relay-race" />
         <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/csp/channel/unbufferedChan" />
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/smp/mutex" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
