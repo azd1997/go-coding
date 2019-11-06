@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd330d16-40c1-4afb-bb3e-e668b7e13c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stl/encoding/json/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/2_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/3_mockcall_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_a_server/server/handlers/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_a_server/server/handlers/handler_example_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_a_server/server/handlers/handler_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_a_server/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,59 +70,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/azd1997/go-coding/stl/bytes">
-    <configuration name="go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/semaphore" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.ExampleSendJSON in github.com/azd1997/go-coding/test/test_a_server/server/handlers">
+    <configuration name="ExampleSendJSON in github.com/azd1997/go-coding/test/test_a_server/server/handlers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/test/test_a_server/server/handlers" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/concurrency/concurrency-pattern/semaphore/semaphore.go" />
-      <package value="github.com/azd1997/go-coding/concurrency/concurrency-pattern/semaphore" />
+      <package value="github.com/azd1997/go-coding/test/test_a_server/server/handlers" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^ExampleSendJSON$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/azd1997/go-coding/log/custom-log" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDownload in github.com/azd1997/go-coding/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/log/custom-log/log.go" />
-      <package value="github.com/azd1997/go-coding/log/custom-log" />
+      <package value="github.com/azd1997/go-coding/test" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestDownload$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/azd1997/go-coding/stl/bytes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDownload2 in github.com/azd1997/go-coding/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/stl/bytes/main.go" />
-      <package value="github.com/azd1997/go-coding/stl/bytes" />
+      <package value="github.com/azd1997/go-coding/test" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestDownload2$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/azd1997/go-coding/stl/encoding/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDownload3 in github.com/azd1997/go-coding/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/stl/encoding/json/json.go" />
-      <package value="github.com/azd1997/go-coding/stl/encoding/json" />
+      <package value="github.com/azd1997/go-coding/test" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestDownload3$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/azd1997/go-coding/stl/log/custom-log" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSendJSON in github.com/azd1997/go-coding/test/test_a_server/server/handlers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/test/test_a_server/server/handlers" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/stl/log/custom-log/log.go" />
-      <package value="github.com/azd1997/go-coding/stl/log/custom-log" />
+      <package value="github.com/azd1997/go-coding/test/test_a_server/server/handlers" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSendJSON$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/stl/bytes" />
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/stl/encoding/json" />
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/stl/log/custom-log" />
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/log/custom-log" />
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/semaphore" />
+        <item itemvalue="Go Test.ExampleSendJSON in github.com/azd1997/go-coding/test/test_a_server/server/handlers" />
+        <item itemvalue="Go Test.TestSendJSON in github.com/azd1997/go-coding/test/test_a_server/server/handlers" />
+        <item itemvalue="Go Test.TestDownload3 in github.com/azd1997/go-coding/test" />
+        <item itemvalue="Go Test.TestDownload2 in github.com/azd1997/go-coding/test" />
+        <item itemvalue="Go Test.TestDownload in github.com/azd1997/go-coding/test" />
       </list>
     </recent_temporary>
   </component>
