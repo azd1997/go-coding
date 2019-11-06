@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd330d16-40c1-4afb-bb3e-e668b7e13c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrency/concurrency-pattern/semaphore/semaphore.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/custom-log/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stl/encoding/json/json.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,6 +31,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -47,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stl" />
       <recent name="$PROJECT_DIR$/concurrency/csp/channel/unbufferedChan/ex-tennis" />
       <recent name="$PROJECT_DIR$/concurrency/csp/channel/bufferedChan/ex-tennis" />
     </key>
@@ -63,39 +64,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/azd1997/go-coding/log/custom-log">
-    <configuration name="go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/pool/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/concurrency/concurrency-pattern/pool/test/main.go" />
-      <package value="github.com/azd1997/go-coding/concurrency/concurrency-pattern/pool/test" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/search/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/concurrency/concurrency-pattern/search/test/main.go" />
-      <package value="github.com/azd1997/go-coding/concurrency/concurrency-pattern/search/test" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/azd1997/go-coding/stl/bytes">
     <configuration name="go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/semaphore" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-coding" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/concurrency/concurrency-pattern/semaphore/semaphore.go" />
       <package value="github.com/azd1997/go-coding/concurrency/concurrency-pattern/semaphore" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/work/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-coding" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/concurrency/concurrency-pattern/work/test/main.go" />
-      <package value="github.com/azd1997/go-coding/concurrency/concurrency-pattern/work/test" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -108,13 +83,40 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/azd1997/go-coding/stl/bytes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-coding" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/stl/bytes/main.go" />
+      <package value="github.com/azd1997/go-coding/stl/bytes" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/azd1997/go-coding/stl/encoding/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-coding" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/stl/encoding/json/json.go" />
+      <package value="github.com/azd1997/go-coding/stl/encoding/json" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/azd1997/go-coding/stl/log/custom-log" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-coding" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/stl/log/custom-log/log.go" />
+      <package value="github.com/azd1997/go-coding/stl/log/custom-log" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/stl/bytes" />
+        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/stl/encoding/json" />
+        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/stl/log/custom-log" />
         <item itemvalue="Go Build.go build github.com/azd1997/go-coding/log/custom-log" />
         <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/semaphore" />
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/search/test" />
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/work/test" />
-        <item itemvalue="Go Build.go build github.com/azd1997/go-coding/concurrency/concurrency-pattern/pool/test" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
